@@ -1,44 +1,191 @@
 <!DOCTYPE html>
 <html>
-    <head> 
+
+<head>
+    <script src="js/script.js"></script>
+
+</head>
+    <header> 
         <title> My first page! </title>
         
         <link rel="stylesheet" type="text/css" href="style/mystyles.css">
-    </head>
-    </head>
+    </header>
+    
     <body>
         <!-- Main content starts here -->
         <div class="main-content-wrapper">
-            <!-- Start header -->
+
+            <!-- START header -->
             <header>
                 <div class="nav-wrapper">
-                    <div class="logo>">
-                        Logo
+                    <div id="logo-id" class="logo>">
+                        @uliana_avdieieva
                     </div>
                     <nav id="top-nav">
                         <ul>
                             <li>
-                                <a href="about">
-                                    About me 
+                                <a href="#intro-wrapper">
+                                    ABOUT ME
                                 </a>
                             </li>
-                            <li>My works</li>
-                            <li>Work process</li>
+                            <li>
+                                <a href="#my-works">
+                                    MY WORKS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#work-process">
+                                   WORK PROCESS
+                                </a>
+                            </li>
                         </ul>
                     </nav>
-                    <button class="button">
+                    <a href="#social-media">
+                         <button class="button">
                         CONTACT
-                    </button>
+                        </button>
+                    </a>
                 </div>
         </div>
+
         <div class="title-wrapper">
-            <h1> Uliana Avdieieva </h1>
-            <img src="image/sdelal.jpg" alt="img">
-        <div class="intr-wrapper">
+        <h1> Uliana Avdieieva </h1>
+            <img src="image/backgr.jpg" alt="img">
+
+            <a href="#social-media">
+                <button class="button2">
+               GET STARTED
+               </button>
+           </a>
+
+             <div id="intro-wrapper" class="intro-wrapper">
             <p>
-                I am Uliana. Glad to meet you! it is Thursday!
+                I am Uliana. My expertise in both manual and automated testing, coupled with my ability to work in fast-paced, agile environments, makes me a strong candidate for the Software Tester position at your esteemed organization.
             </p>
-            <button> Get started! </button>
+            </div>
         </div>
+            </header>
+            <!-- END header -->
+
+    <!-- START my works-->
+        <div class="my-works" id="my-works">
+            <div class="my-works-txt">
+                <p> (1) My works </p>
+            </div>
+            <div class="my-projects">
+                <div class="proj01">
+                    <img src="image/01 proj.jpeg" alt="img">
+                    <p>PROJECT 01 </p>
+                    <button class="button">
+                        LEARN MORE
+                    </button>
+                </div>
+                <div class="proj01">
+                    <img src="image/pr02.jpeg" alt="img">
+                    <p>PROJECT 02 </p>
+                    <button class="button">
+                        LEARN MORE
+                    </button>
+                </div>
+                <div class="proj01">
+                    <img src="image/03 proj.jpeg" alt="img">
+                    <p>PROJECT 03 </p>
+                    <button class="button">
+                        LEARN MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+    <!-- END my works-->
+    
+    <!-- START Work process-->
+        <div class="process-txt">
+                (2) Work process
+         </div>
+    <div id="work-process" class="work-process"></div>
+            <div class="paragraph">
+                <h2>BRIEFING</h2>
+                <hr>
+                <div class="discription">
+                    Determining the desired functionality, agreeing on the price and deadlines
+                </div>
+            </div>
+            <div class="paragraph">
+                <h2>ANALYSYS</h2>
+                <hr>
+                <div class="discription">
+                    Analysis of the company, target audience and competitors
+                </div>
+            </div>
+            <div class="paragraph">
+                <h2>PROTOTYPE</h2>
+                <hr>
+                <div class="discription">
+                    Creating a layout and a site map with all pages and sections
+                </div>
+            </div>
+            <div class="paragraph">
+                <h2>DESIGN</h2>
+                <hr>
+                <div class="discription">
+                    Designing all pages of the site for desktop and mobile devices
+                </div>
+            </div>
+            <div class="paragraph">
+                <h2>LAYOUT AND SETUP</h2>
+                <hr>
+                <div class="discription">
+                    Layout design on Tilda, setting up animations, connecting the necessary features and services, adaptation for desktop and mobile devices
+            </div>
+        </div> 
+    </div>
+    <!-- END Work process-->
+
+    <!-- START Footer-->
+    <div id="contact">
+        <div class="contact-txt">
+            (3) Contact
+            <div class="get-in-touch">
+                GET IN TOUCH!
+            </div>
+            <div class="contact-boxes">
+                    <div>
+                        <form id="concactinput-id">
+                            <label for="your-name">
+                                Your name:
+                            </label>
+                                <br>
+                            <input type="text" id="your-name-input" name="your-name">
+                                <br>
+                            <label for="email">
+                                Email:
+                            </label>
+                                <br>
+                            <input type="email" id="emailinput" name="email">
+                            <button class="button-get-started" type="submit" id="submitend">
+                                GET STARTED
+                            </button>
+                        </form>
+                        <div>
+                        <div id="errorMessage"></div>
+                    </div>
+                    <div id="social-media" class="social-media">
+                        <a href="">
+                            <img src="image/viber.png" alt="viber"/>
+                        </a>
+                        <a href="https://www.instagram.com/uliana_avdieieva">
+                            <img src="image/instagram.png" alt="instagram"/>
+                        </a>
+                        <a href="">
+                            <img src="image/telegram.jpg" alt="telegram"/>
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Footer-->
     </body>
 </html>
+
+
+

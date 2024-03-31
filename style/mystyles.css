@@ -37,6 +37,8 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 /* A elements that don't have a class get default styles */
@@ -76,27 +78,21 @@ select {
 }
 
 /* START general*/
-.main-content-wrapper {
-  border: 1px solid red;
-}
+.main-content-wrapper
 
+.header 
 
-header {
-  border: 1px solid green;
-}
+.nav-wrapper 
 
-nav-wrapper {
-  border: 1px solid blue;
-}
-
-.logo, #top-nav, .button {
-  border: 1px solid orange;
-}
+.logo, #top-nav, .button 
 
 .logo {
   margin: 10px;
 }
+
+
 /* END general*/
+
 
 /* Start NAVIGATION*/
 .nav-wrapper {
@@ -107,30 +103,231 @@ nav-wrapper {
 ul li{
     display:inline;
     margin:10px 60px 10px 10px;
+    cursor: alias;
+}
+.li{
+  cursor: alias;
 }
 /* End NAVIGATION*/
-
-
+ 
 
 .title-wrapper {
-  border: 1px solid purple;
   font-family: Inter;
   font-size: 55px;
   font-weight: 500; 
   line-height: 119pms;
   letter-spacing: Ben;
   text-align: left;
+  margin: 10px;
+}
+.title-wrapper h1{
+  margin: 10px;
+  max-height: 98px;
+  max-width: 892px;
+}
+
+a{
+  cursor:unset;
+  text-decoration: none;
+  color: black;
+}
+
+.button{
+  color: black;
+  margin: 0 auto;
+  height: 30px;
+  width: 139px;
+  padding: 1px;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  cursor:alias;
+}
+
+.button2{
+  color: black;
+  margin: 0 25px 0 0px;
+  height: 30px;
+  width: 180px;
+  padding: 1px;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 20px;
+  background-color: transparent;
+  cursor: alias;
 }
 
 .title-wrapper img {
-  width: 900px;
-  height: 500px;
+  width: 100%;
+  height: 290px;
+  margin: 0 auto;
+  margin-top: 57px;
+  margin-bottom: 57px;
 }
 
 .intro-wrapper {
   display: flex;
+  margin: 10px;
 }
 
-.intro.wrapper p {
+.intro-wrapper p {
+  width: 70%;
+  margin-top: 57px;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.my works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 0 0;
+}
+.my-works-txt{
+  display: inline;
+  margin-top: 118px;
+  margin-bottom: 75px;
+  font-size: 17px;
+  margin: 10px;
+}
+
+.my-projects{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.proj01{
+  border: 1px solid #494A49;
+  border-radius: 20px;
+  width: 310px;
+  height: 400px;
+  margin: 80px 38px 80px 38px;
+}
+
+.proj01 img{
+  height: 265px;
+  border-radius: 20px;
+}
+
+.process-txt{
+  justify-content: left;
+  margin-top: 118px;
+  margin-bottom: 75px;
+  font-size: 17px;
+  margin: 10px;
+}
+
+.work-process{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 60px 0;
+}
+
+
+.paragraph {
+  display: inline;
+  justify-content: left;
+  align-items: center;
+  margin: 0 0 0 0;
+  max-width: 1080px;
+  width: 100%;
+}
+
+.discription {
+  position: relative;
+  max-width: 465px;
+  left: 55%;
+  width: 100%;
+}
+  
+
+*****Footer****
+.contact-boxes {
+  width: 400px;
+  height: 50px;
+  border: 1px black;
+  padding: 10px;
+  margin: 10 px;
+}
+
+.contact-txt {
+  margin-top: 61px;
+  margin-bottom: 61px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+.get-in-touch {
+  margin-top: 61px;
+  margin-bottom: 61px;
+  font-size: 50px;
+  margin: 10px;
+}
+
+#your-name-input {
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+#emailinput{
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.label {
+  font-size: 20px;
+}
+
+
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.social-media img {
+  margin: 35px 10px 10px 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#submitend{
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 30px;
+  width: 180px;
+  padding: 1px;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+#concactinput-id{
   width: 50%;
+}
+
+a:hover{
+  color: #660066;
+}
+
+button:hover{
+  background-color: #c8a2c8;
 }
